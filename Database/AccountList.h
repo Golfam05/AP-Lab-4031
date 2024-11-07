@@ -14,7 +14,9 @@ public:
 	Account& at(int i);
 
 	/* sort by account uniqe id */
-	void sort();
+	Account* merge(Account* first, Account* second);
+	Account* MergeSort(Account* head);
+
 
 	/* search by the account uniqe id*/
 	Account search(int _uniqeId);
